@@ -25,3 +25,12 @@ VAR T_Stat = DIVIDE((Mean_Claude - Mean_ChatGPT), StandardError)
 VAR DF_Numerator = POWER(DIVIDE(Var_Claude, N_Claude) + DIVIDE(Var_ChatGPT, N_ChatGPT), 2)
 // ... degrees of freedom calculation ...
 RETURN IFERROR(T.DIST.2T(ABS(T_Stat), DF), BLANK())
+<img width="662" height="383" alt="1" src="https://github.com/user-attachments/assets/9e8bcaea-71ef-4452-b9b4-5068b2e68ab2" />
+<img width="658" height="381" alt="7" src="https://github.com/user-attachments/assets/572762f1-4293-4366-9a16-2f9a9e90b6c6" />
+<img width="658" height="377" alt="6" src="https://github.com/user-attachments/assets/80cbbdf8-b0b9-4160-8dd0-04c0e292b932" />
+<img width="659" height="380" alt="5" src="https://github.com/user-attachments/assets/7dfa9296-3131-494d-a3d0-e85482c7dbdc" />
+<img width="658" height="379" alt="4" src="https://github.com/user-attachments/assets/1b63f8e2-feae-44c4-b1bd-6847a144d0ea" />
+<img width="657" height="378" alt="3" src="https://github.com/user-attachments/assets/19649808-99de-45cd-81ba-ac61becdfcb2" />
+<img width="662" height="382" alt="2" src="https://github.com/user-attachments/assets/944cb846-7c11-48d1-a5d1-7c971f5396f5" />
+
+
